@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ameen muhammed - Full Stack Developer specializing in modern web applications, scalable backends, and sleek user interfaces.">
+  <meta name="author" content="Ameen muhammed">
+  <title>Ameen muhammed | Full Stack Developer</title>
+  <!-- Google Fonts for modern clean typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Ameen muhammed Home">
+        <span class="logo-accent">A</span>meen<span class="logo-dot">.</span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About me</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact me</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary nav-hire-btn">Hire Me</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- ==================== HERO SECTION (DARK THEME) ==================== -->
+  <section class="hero-section" id="home">
+    <div class="container hero-container">
+      
+      <!-- Hero Left: Integrated Portrait Composition -->
+      <div class="hero-left">
+        <div class="portrait-wrapper">
+          <div class="portrait-bg-circle"></div>
+          <div class="portrait-glow"></div>
+          <img src="profile.png" alt="Ameen muhammed - Full Stack Developer Portrait" class="hero-portrait-img" loading="eager">
+          
+          <div class="hero-badge experience-badge">
+            <span class="badge-number">1</span>
+            <span class="badge-text">Years of<br>Experience</span>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Right: Title, Bio & CTAs -->
+      <div class="hero-right">
+        <div class="hero-greeting-pill">
+          <span class="pulse-dot"></span> Available for Hire
+        </div>
+        <p class="hero-intro">Hi, I am</p>
+        <h1 class="hero-name">Ameen muhammed</h1>
+        <h2 class="hero-title"><span class="highlight">Full Stack</span> Developer</h2>
+        
+        <p class="hero-description">
+          Crafting high-performance web applications, resilient backend architectures, and delightful digital experiences with precision and modern visual craftsmanship.
+        </p>
+        <!-- Social Icons -->
+        <div class="social-links" aria-label="Social Profiles">
+          <a href="https://github.com/ameenoii" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/ameen-muhammed-23b308411"
+           target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="X Twitter Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="mailto:ameen55lalu@gmail.com" class="social-icon" aria-label="Send Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.036l-9.518 7.713-9.518-7.713zm5.694 6.797l3.824 3.099 3.83-3.104 4.57 5.208h-16.797l4.573-5.203zm9.201-.868l4.623-3.746v9.458l-4.623-5.712z"/></svg>
+          </a>
+        </div>
+        <!-- Hero Buttons -->
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="#contact" class="btn btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download CV
+          </a>
+        </div>
+        <!-- Quick Stats Grid -->
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-number">1+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">1+</div>
+            <div class="stat-label">Completed Projects</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Client Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Curved Hero Transition Divider -->
+    <div class="curved-hero-transition" aria-hidden="true">
+      <svg preserveAspectRatio="none" viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,32 C320,120 1120,120 1440,32 L1440,120 L0,120 Z" fill="var(--bg-main)"></path>
+      </svg>
+    </div>
+  </section>
+  <!-- ==================== MAIN CONTENT (LIGHT THEME) ==================== -->
+  <main class="main-content">
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">What I Do</span>
+          <h2 class="section-title">My Specializations</h2>
+          <p class="section-description">
+            Providing full lifecycle web development solutions from strategic UI design to robust database and API implementations.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <h4 class="servise-title">Loading...</h4>
+            <h3 class="service-title">Full-Stack Web Apps</h3>
+            <p class="service-text">
+              Building dynamic, fast, and scalable web applications with modular frontend architectures and secure RESTful backends.
+            </p>
+            <a href="#contact" class="service-link">Discuss Project &rarr;</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            </div>
+            <h4 class="servise-title">Coming soon...</h4>
+            <h3 class="service-title">Front-End Engineering</h3>
+            <p class="service-text">
+              Crafting pixel-perfect, responsive, accessible, and high-performance interfaces using modern HTML5, CSS3, and JavaScript.
+            </p>
+            <a href="#contact" class="service-link">Discuss Project &rarr;</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            </div>
+            <h4 class="servise-title">Loading...</h4>
+            <h3 class="service-title">Backend & Database</h3>
+            <p class="service-text">
+              Architecting efficient relational and NoSQL database schemas, clean API endpoints, and scalable server architectures.
+            </p>
+            <a href="#contact" class="service-link">Discuss Project &rarr;</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            </div>
+             <h4 class="servise-title">  Coming soon...</h4>
+            <h3 class="service-title">UI/UX Interface Design</h3>
+            <p class="service-text">
+              Designing thoughtful wireframes, high-fidelity UI concepts, and interactive design systems prioritizing user flow and clarity.
+            </p>
+            <a href="#contact" class="service-link">Discuss Project &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section class="section about-section" id="about">
+      <div class="container about-container">
+        
+        <!-- Left Profile Sidebar Column -->
+        <div class="about-profile-col">
+          <div class="about-profile-card">
+            <!-- SCROLL TRANSITION ELEMENT CONTAINER -->
+            <div class="about-avatar-wrapper" id="about-avatar-wrapper">
+              <img src="profile.png" alt="Ameen muhammed Profile Photo" class="about-avatar-img" id="scroll-profile-img">
+            </div>
+            <!-- Profile Details Target Header -->
+            <div class="about-profile-meta text-center" id="about-profile-meta">
+              <h3 class="about-name">Ameen muhammed</h3>
+              <p class="about-role">Full Stack Developer</p>
+              
+              <div class="about-socials">
+                <a href="https://github.com/ameenoii" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/ameen-muhammed-23b308411" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="LinkedIn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="mailto:ameen55lalu@gmail.com" class="social-chip" aria-label="Email">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.036l-9.518 7.713-9.518-7.713zm5.694 6.797l3.824 3.099 3.83-3.104 4.57 5.208h-16.797l4.573-5.203zm9.201-.868l4.623-3.746v9.458l-4.623-5.712z"/></svg>
+                </a>
+              </div>
+              <div class="profile-quick-stats">
+                <div class="p-stat">
+                  <span class="p-val">1</span>
+                  <span class="p-lbl">Years Exp</span>
+                </div>
+                <div class="p-stat-divider"></div>
+                <div class="p-stat">
+                  <span class="p-val">1+</span>
+                  <span class="p-lbl">Projects</span>
+                </div>
+              </div>
+              <div class="about-profile-actions">
+                <a href=https://wa.me/qr/SJPBFRTZSNJJB1 class="btn btn-primary btn-sm full-width">Contact Me</a>
+                <a href="#contact" class="btn btn-outline btn-sm full-width">Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Right Content Column -->
+        <div class="about-content-col">
+          <span class="section-subtitle">About Me</span>
+          <h2 class="section-title">Driven by clean code & user-centered design</h2>
+          
+          <p class="about-paragraph">
+            Hello! I'm <strong>Ameen muhammed</strong>, a full stack developer dedicated to creating intuitive, efficient, and visual web software. With hands-on experience in full-stack architecture, frontend interactive components, and database models, I turn complex problems into streamlined applications.
+          </p>
+          <p class="about-paragraph">
+            I prioritize maintainable code structures, crisp typography, and responsive layouts that perform effortlessly across devices. Whether engineering a brand-new Web SaaS product or refining user interfaces, I deliver thorough and reliable results.
+          </p>
+          <div class="about-highlights-grid">
+            <div class="highlight-item">
+              <div class="highlight-icon">⚡</div>
+              <div>
+                <h4 class="highlight-title">Fast Performance</h4>
+                <p class="highlight-desc">Optimized rendering and minimal bundle footprint.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🎯</div>
+              <div>
+                <h4 class="highlight-title">Clean Architecture</h4>
+                <p class="highlight-desc">Modular, scalable code patterns easy to extend.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">📱</div>
+              <div>
+                <h4 class="highlight-title">Responsive & Mobile First</h4>
+                <p class="highlight-desc">Fluid design tailored for screens of all sizes.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🛠️</div>
+              <div>
+                <h4 class="highlight-title">Modern Stack</h4>
+                <p class="highlight-desc">HTML5, CSS3, Vanilla JS.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== PORTFOLIO SECTION ==================== -->
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Selected Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-description">
+            A showcase of recent concepts and applications designed with attention to usability and clean UI design.
+          </p>
+        </div>
+        <!-- Portfolio Filter Tabs -->
+        <div class="portfolio-tabs">
+          <button class="tab-btn active" data-filter="all">All Projects</button>
+          <button class="tab-btn" data-filter="mobile">Mobile Apps</button>
+          <button class="tab-btn" data-filter="web">Web Dashboards</button>
+          <button class="tab-btn" data-filter="concept">UI Concepts</button>
+        </div>
+        <!-- 6 Project Cards Grid -->
+        <div class="portfolio-grid">
+          
+          <!-- Card 1 -->
+          <article class="portfolio-card" data-category="mobile concept">
+            <div class="card-image-box">
+              <img src="assets/project-nft.png" alt="NFT Mobile App Concept Preview" loading="lazy" class="portfolio-img">
+              <div class="card-overlay">
+                <span class="card-category-badge">Mobile App</span>
+                <h4 class="card-overlay-title inprogress-title">in progress...</h4>
+                <h3 class="card-overlay-title">NFT Mobile App Concept</h3>
+                <a href="#contact" class="card-link-btn" aria-label="View NFT Mobile App Concept details">View Project &rarr;</a>
+              </div>
+            </div>
+            <div class="card-info">
+              <span class="card-meta">Mobile App &bull; UI/UX</span>
+              <h3 class="card-title">NFT Mobile App Concept</h3>
+            </div>
+          </article>
+          <!-- Card 2 -->
+          <article class="portfolio-card" data-category="web">
+            <div class="card-image-box">
+              <img src="assets/project-filesharing.png" alt="File Sharing Concept Preview" loading="lazy" class="portfolio-img">
+              <div class="card-overlay">
+                <span class="card-category-badge">Web Application</span>
+                <h4 class="card-overlay-title">under development...</h4>
+                <h3 class="card-overlay-title">File Sharing Concept</h3>
+                <a href="#contact" class="card-link-btn" aria-label="View File Sharing Concept details">View Project &rarr;</a>
+              </div>
+            </div>
+            <div class="card-info">
+              <span class="card-meta">Web SaaS &bull; Full Stack</span>
+              <h3 class="card-title">File Sharing Concept</h3>
+            </div>
+          </article>
+          <!-- Card 3 -->
+          <article class="portfolio-card" data-category="mobile">
+            <div class="card-image-box">
+              <img src="assets/project-fooddelivery.png" alt="Food Delivery App Concept Preview" loading="lazy" class="portfolio-img">
+              <div class="card-overlay">
+                <span class="card-category-badge">Mobile App</span>
+                <h4 class="card-overlay-title inprogress-title">In progress...</h4>
+                <h3 class="card-overlay-title">Food Delivery App Concept</h3>
+                <a href="#contact" class="card-link-btn" aria-label="View Food Delivery App Concept details">View Project &rarr;</a>
+              </div>
+            </div>
+            <div class="card-info">
+              <span class="card-meta">Mobile App &bull; Front-End</span>
+              <h3 class="card-title">Food Delivery App Concept</h3>
+            </div>
+          </article>
+          <!-- Card 4 -->
+          <article class="portfolio-card" data-category="web">
+            <div class="card-image-box">
+              <img src="assets/project-taskmgmt.png" alt="Task Management Concept Preview" loading="lazy" class="portfolio-img">
+              <div class="card-overlay">
+                <span class="card-category-badge">Web SaaS</span>
+                <h4 class="card-overlay-title">under development...</h4>
+                <h3 class="card-overlay-title">Task Management Concept</h3>
+                <a href="#contact" class="card-link-btn" aria-label="View Task Management Concept details">View Project &rarr;</a>
+              </div>
+            </div>
+            <div class="card-info">
+              <span class="card-meta">Web Dashboard &bull; Architecture</span>
+              <h3 class="card-title">Task Management Concept</h3>
+            </div>
+          </article>
+          <!-- Card 5 -->
+          <article class="portfolio-card" data-category="web concept">
+            <div class="card-image-box">
+              <img src="assets/project-finance.png" alt="Finance Dashboard Concept Preview" loading="lazy" class="portfolio-img">
+              <div class="card-overlay">
+                <span class="card-category-badge">Fintech Dashboard</span>
+                <h4 class="card-overlay-title">under development...</h4>
+                <h3 class="card-overlay-title">Finance Dashboard Concept</h3>
+                <a href="#contact" class="card-link-btn" aria-label="View Finance Dashboard Concept details">View Project &rarr;</a>
+              </div>
+            </div>
+            <div class="card-info">
+              <span class="card-meta">Fintech &bull; Analytics</span>
+              <h3 class="card-title">Finance Dashboard Concept</h3>
+            </div>
+          </article>
+          <!-- Card 6 -->
+          <article class="portfolio-card" data-category="mobile concept">
+            <div class="card-image-box">
+              <img src="assets/project-health.png" alt="Health Tracking App Concept Preview" loading="lazy" class="portfolio-img">
+              <div class="card-overlay">
+                <span class="card-category-badge">Mobile Concept</span>
+                <h4 class="card-overlay-title">under development...</h4>
+                <h3 class="card-overlay-title">Health Tracking App Concept</h3>
+                <a href="#contact" class="card-link-btn" aria-label="View Health Tracking App Concept details">View Project &rarr;</a>
+              </div>
+            </div>
+            <div class="card-info">
+              <span class="card-meta">Health Tech &bull; Mobile UI</span>
+              <h3 class="card-title">Health Tracking App Concept</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== EXPERIENCE & EDUCATION SECTION ==================== -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        
+        <div class="grid-2col">
+          <!-- Experience Column -->
+          <div class="timeline-col">
+            <div class="column-header">
+              <div class="col-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+              </div>
+              <h2 class="column-title">My Experience</h2>
+            </div>
+            <div class="timeline">
+              <!-- Item 1 -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-meta">
+                    <span class="date-badge">2027 - future</span>
+                    <span class="location-badge">Remote / India</span>
+                  </div>
+                  <h3 class="timeline-role">Full-Stack Developer</h3>
+                  <h4 class="timeline-company">Independent / Software Development</h4>
+                  <p class="timeline-desc">
+                    Designing and engineering end-to-end full stack web applications, REST APIs, and database integrations. Delivering high performance code and responsive web layouts.
+                  </p>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-meta">
+                    <span class="date-badge">2026-wthin few months </span>
+                    <span class="location-badge">India</span>
+                  </div>
+                  <h3 class="timeline-role">Front-End Developer</h3>
+                  <h4 class="timeline-company">Web Solutions Studio</h4>
+                  <p class="timeline-desc">
+                    Built modular UI components, enhanced mobile layouts, and improved web vitals performance for custom client web applications.
+                  </p>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-meta">
+                    <span class="date-badge">2026- within few months </span>
+                    <span class="location-badge">India</span>
+                  </div>
+                  <h3 class="timeline-role">UI/UX Designer</h3>
+                  <h4 class="timeline-company">Design & Interactive Lab</h4>
+                  <p class="timeline-desc">
+                    Created user journey maps, wireframes, visual design systems, and responsive website prototypes for digital products.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Education Column -->
+          <div class="timeline-col">
+            <div class="column-header">
+              <div class="col-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              </div>
+              <h2 class="column-title">My Education</h2>
+            </div>
+            <div class="timeline">
+              <!-- Education Item -->
+              <div class="timeline-item">
+                <div class="timeline-dot alt"></div>
+                <div class="timeline-content">
+                  <div class="timeline-meta">
+                    <span class="date-badge">Completed</span>
+                    <span class="location-badge">Higher Secondary</span>
+                  </div>
+                  <h3 class="timeline-role">Plus Two Completed</h3>
+                  <h4 class="timeline-company">Secondary & Higher Secondary Education Board</h4>
+                  <p class="timeline-desc">Successfully completed Plus Two in Bio Science, building analytical thinking, logical reasoning, creativity, and problem-solving skills that have supported my journey into technology and software development.
+                  </p>
+                </div>
+              </div>
+              <!-- Certifications / Skills Card -->
+              <div class="skills-card-box">
+                <h4 class="skills-box-title">Technical Expertise</h4>
+                <div class="skills-tags">
+                  <span class="skill-tag">HTML5 & CSS3</span>
+                  <span class="skill-tag">JavaScript (ES6+)</span>
+                  <!-- <span class="skill-tag">Loading..</span>
+                  <span class="skill-tag">Loading..</span>
+                  <span class="skill-tag">Loading..</span>
+                  <span class="skill-tag">Loading..</span> -->
+                  <span class="skill-tag">Responsive Web Design</span>
+                  <span class="skill-tag">UI/UX Prototyping</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card-wrapper">
+          <div class="contact-grid">
+            
+            <!-- Contact Left Info -->
+            <div class="contact-info">
+              <span class="section-subtitle light">Get In Touch</span>
+              <h2 class="contact-heading">Let's work together on your next project!</h2>
+              <p class="contact-text">
+                Have a project in mind or interested in hiring me? Feel free to reach out via email or send a quick message using the form.
+              </p>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <div class="contact-icon-wrapper">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  </div>
+                  <div>
+                    <span class="contact-label">Email Me</span>
+                    <a href="mailto:ameen55lalu@gmail.com" class="contact-value">ameen55lalu@gmail.com</a>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon-wrapper">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  </div>
+                  <div>
+                    <span class="contact-label">Location</span>
+                    <span class="contact-value">India</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Contact Right Form -->
+            <div class="contact-form-container">
+              <form class="contact-form" id="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="user-name" class="form-label">Your Name</label>
+                  <input type="text" id="user-name" class="form-input" placeholder="e.g. Alex Smith" required>
+                </div>
+                <div class="form-group">
+                  <label for="user-email" class="form-label">Your Email</label>
+                  <input type="email" id="user-email" class="form-input" placeholder="e.g. alex@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="user-message" class="form-label">Project Details / Message</label>
+                  <textarea id="user-message" class="form-input form-textarea" rows="4" placeholder="Tell me about your project requirements..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary full-width btn-lg" id="submit-btn">
+                  <span>Send Message</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+                <div class="form-feedback" id="form-feedback" role="alert"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <a href="#home" class="logo footer-logo">
+        <span class="logo-accent">A</span>meen<span class="logo-dot">.</span>
+      </a>
+      <p class="copyright">
+        &copy; <span id="year">2026</span> Ameen muhammed. All rights reserved. Crafted with vanilla HTML, CSS & JS.
+      </p>
+      <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      </a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
